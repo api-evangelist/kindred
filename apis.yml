@@ -1,8 +1,26 @@
 aid: kindred
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kindred.png
 name: Kindred
-description: Kindred is a company surfaced as a portfolio company of a16z, bessemer-venture-partners,
-  gv, index-ventures, nea and added to the API Evangelist network as a stub for enrichment. This profile
-  is a lead awaiting the enrichment pipeline.
+description: Kindred is a members-only home exchange platform where verified members swap their
+  real homes with one another instead of paying for traditional accommodation. The service runs on
+  a credit economy — members earn one night of travel credit for every night they host, and new members
+  start with five nights of credit. Kindred verifies every member and home, provides professional
+  cleaning before and after each stay, and includes up to $100K in damage protection. There are no
+  membership fees; travelers pay only a cleaning and service fee per trip. The platform operates across
+  190+ cities in North America and Europe and is backed by a16z, Bessemer Venture Partners, GV, Index
+  Ventures, and NEA. Kindred is a consumer travel product and does not publish a public API, developer
+  portal, or technical documentation.
 url: https://raw.githubusercontent.com/api-evangelist/kindred/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Travel
+- Hospitality
+- Home Exchange
+- Home Swapping
+- Accommodation
+- Travel Community
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -28,3 +53,24 @@ maintainers:
 common:
 - type: Website
   url: https://livekindred.com/
+- type: Blog
+  url: https://blog.livekindred.com/
+- type: GettingStarted
+  url: https://livekindred.com/how-it-works
+- type: Support
+  url: https://livekindred.com/faq
+- type: SignUp
+  url: https://livekindred.com/onboarding
+- type: Login
+  url: https://livekindred.com/login
+- type: TermsOfService
+  url: https://livekindred.notion.site/livekindred/Terms-of-Service-bd61683e1aa84af6b1bba8d7bc114171
+- type: PrivacyPolicy
+  url: https://livekindred.notion.site/livekindred/Kindred-Privacy-Policy-6b7a9afb0f0e4f768a70bb428cbccf7b
+- type: DomainSecurity
+  url: security/kindred-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
