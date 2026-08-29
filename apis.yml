@@ -33,6 +33,9 @@ description: Kindred is a members-only home exchange platform where verified mem
   Ventures, and NEA. Kindred is a consumer travel product and does not publish a public API, developer
   portal, or technical documentation.
 url: https://raw.githubusercontent.com/api-evangelist/kindred/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Kindred is a consumer travel product and does not publish a public API, developer portal, or technical documentation."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
