@@ -64,6 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Kindred is a company surfaced as a portfolio company of a16z, bessemer-venture-partners, gv, index-ventures, nea and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Kindred is a members-only home exchange platform where verified members swap their real homes with one another instead of paying for traditional accommodation. The service runs on a credit economy — members earn one night of travel credit for every night they host, and new members start with five nights of credit. Kindred verifies every member and home, provides professional cleaning before and after each stay, and includes up to $100K in damage protection. There are no membership fees; travelers pay only a cleaning and service fee per trip. The platform operates across 190+ cities in North America and Europe and is backed by a16z, Bessemer Venture Partners, GV, Index Ventures, and NEA. Kindred is a consumer travel product and does not publish a public API, developer portal, or technical documentation.
 
-Backed by: a16z, bessemer-venture-partners, gv, index-ventures, nea — https://livekindred.com/
+**Areas:** Company · Travel · Hospitality · Home Exchange · Home Swapping · Accommodation · Travel Community · Consumer
+
+## Kindred on APIs.io
+
+Everything profiled for Kindred is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kindred/](https://apis.io/providers/kindred/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Kindred Domain Security](https://apis.io/security/kindred/kindred-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://livekindred.com/)
+- [Getting started](https://livekindred.com/how-it-works)
+- [Sign up](https://livekindred.com/onboarding)
+- [Support](https://livekindred.com/faq)
+- [Blog](https://livekindred.com/blog)
+- [Terms of service](https://livekindred.notion.site/livekindred/Terms-of-Service-bd61683e1aa84af6b1bba8d7bc114171)
+- [Privacy policy](https://livekindred.notion.site/livekindred/Kindred-Privacy-Policy-6b7a9afb0f0e4f768a70bb428cbccf7b)
+
+## API Evangelist rating
+
+**Kin Score 10.6** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 27.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/kindred/](https://apis.io/providers/kindred/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Kindred: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kindred/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
